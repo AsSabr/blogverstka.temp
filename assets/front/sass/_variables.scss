@@ -1,0 +1,11 @@
+// Transition
+$duration: 0.5s;
+$easing: ease-in-out;
+
+@mixin transition($property) {
+	#{transition}: $property $duration $easing;
+}
+
+@mixin rgba-bg($color, $alpha) {
+	#{background}: rgba($color, $alpha);
+}
