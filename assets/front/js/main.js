@@ -38,38 +38,39 @@
   });
 
   // Handle click on toggle search button
-
-  const searchBtn = document.querySelector('#toggle-search');
-  const searchForm = document.querySelector('#search-form');
-  searchBtn.addEventListener('click', () => {
-    searchForm.classList.toggle('open');
-    searchBtn.classList.toggle('open');
-    return false;
-  });
-
-
-  // $("#toggle-search").click(function () {
-  //   $("#search-form, #toggle-search").toggleClass("open");
+  // const searchBtn = document.getElementById('search-btn');
+  // const searchForm = document.getElementById('search-form');
+  // searchBtn.addEventListener('click', () => {
+  //   searchForm.classList.toggle('open');
+  //   searchBtn.classList.toggle('open');
   //   return false;
   // });
 
   // Handle click on search submit button
-  // $("#search-form input[type=submit]").click(function () {
-  //   $("#search-form, #toggle-search").toggleClass("open");
-  //   return true;
-  // });
 
   // Clicking outside the search form closes it
-  // $(document).click(function (event) {
-  //   var target = $(event.target);
-
-  //   if (
-  //     !target.is("#toggle-search") &&
-  //     !target.closest("#search-form").size()
-  //   ) {
-  //     $("#search-form, #toggle-search").removeClass("open");
-  //   }
-  // });
-
 
 })();
+
+(function($) {
+  // Handle click on toggle search button
+  $("#search-btn").click(function () {
+    $("#search-form, #search-btn").toggleClass("open");
+    return false;
+  });
+
+  // Handle click on search submit button
+  $("#search-form input[type=submit]").click(function () {
+    $("#search-form, #search-btn").toggleClass("open");
+    return true;
+  });
+		// Clicking outside the search form closes it
+		$(document).click(function(event) {
+			var target = $(event.target);
+      
+			if (!target.is('#search-btn') && !target.closest('#search-form').size()) {
+				$('#search-form, #search-btn').removeClass('open');
+			}
+		});
+
+})(jQuery);
