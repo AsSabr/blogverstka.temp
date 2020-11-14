@@ -12,6 +12,8 @@
 
   window.onscroll = navbarScroll;
 
+
+  
   // Adding/Removing class to navbar section on scroll
   // window.addEventListener('scroll', () => {
 
@@ -37,40 +39,17 @@
     navItems.classList.toggle('is__active');
   });
 
-  // Handle click on toggle search button
-  // const searchBtn = document.getElementById('search-btn');
-  // const searchForm = document.getElementById('search-form');
-  // searchBtn.addEventListener('click', () => {
-  //   searchForm.classList.toggle('open');
-  //   searchBtn.classList.toggle('open');
-  //   return false;
-  // });
+  // Open search form
+  const searchBtn = document.querySelector('#search-btn');
+  const searchForm = document.querySelector('#search-form');
+  const closeForm = document.querySelector('#search-close');
 
-  // Handle click on search submit button
-
-  // Clicking outside the search form closes it
-
-})();
-
-(function($) {
-  // Handle click on toggle search button
-  $("#search-btn").click(function () {
-    $("#search-form, #search-btn").toggleClass("open");
+  searchBtn.addEventListener('click', () => {
+    searchForm.classList.toggle('open');
+    // searchBtn.classList.toggle('open');
     return false;
   });
 
-  // Handle click on search submit button
-  $("#search-form input[type=submit]").click(function () {
-    $("#search-form, #search-btn").toggleClass("open");
-    return true;
-  });
-		// Clicking outside the search form closes it
-		$(document).click(function(event) {
-			var target = $(event.target);
-      
-			if (!target.is('#search-btn') && !target.closest('#search-form').size()) {
-				$('#search-form, #search-btn').removeClass('open');
-			}
-		});
+  // Close search form
 
-})(jQuery);
+})();

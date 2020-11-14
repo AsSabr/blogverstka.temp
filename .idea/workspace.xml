@@ -10,17 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b239121f-5bda-404b-8536-c081d3661acd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/front/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/sass/_burger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/sass/_burger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/sass/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/sass/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/sass/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/front/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/front/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b239121f-5bda-404b-8536-c081d3661acd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +18,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +45,7 @@
       <updated>1605295825201</updated>
       <workItem from="1605295826690" duration="29000" />
       <workItem from="1605310736024" duration="20000" />
+      <workItem from="1605311325222" duration="28000" />
     </task>
     <servers />
   </component>
@@ -75,5 +69,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605295842388" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605311345451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605311345451" />
   </component>
 </project>

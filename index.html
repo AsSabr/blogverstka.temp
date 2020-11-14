@@ -68,7 +68,7 @@
 											></path>
 										</svg>
 									</button>
-									<form id="search-form" action="">
+									<form id="search-form" class="search__form" action="">
 										<fieldset>
 											<input
 												name="search-terms"
@@ -76,7 +76,23 @@
 												placeholder="Введите искомое слово"
 											/>
 										</fieldset>
-										<input type="submit" value="Найти" />
+										<div class="search__buttons">
+											<input type="submit" value="Найти" />
+											<button type="button" id="search-close">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="22"
+													height="22"
+													viewBox="0 0 24 24"
+													fill="none"
+												>
+													<path
+														class="search__btn-close"
+														d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"
+													></path>
+												</svg>
+											</button>
+										</div>
 									</form>
 								</div>
 								<div class="navbar__donate donate is__desktop">
@@ -217,7 +233,7 @@
 			</div>
 		</main>
 
-		<script src="assets/front/js/jquery.js"></script>
+		<!-- <script src="assets/front/js/jquery.js"></script> -->
 		<script src="assets/front/js/main.js"></script>
 	</body>
 </html>
