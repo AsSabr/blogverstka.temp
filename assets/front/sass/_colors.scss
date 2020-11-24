@@ -10,18 +10,19 @@
 $bodyColor: #171919;
 $nav: hsl(207, 24%, 19%);
 $white: #ffffff;
-$link: hsl(349, 100%, 37%);
 $primary: hsl(171, 100%, 41%);
 $info: hsl(204, 86%, 53%);
 $danger: hsl(348, 100%, 61%);
 $warning: hsl(48, 100%, 67%);
 $amaranth: hsl(348, 78%, 53%);
+$link: $info;
 $shuttleGray: #516270;
 $silverSand: #c6cacd;
 $timeline: #d0d6e2;
 $timeline2: #929fba;
 $timeline-point: #7283a7;
 $shadow: $silverSand;
+$eee: #eeeeee;
 
 // Color classes
 .primary__txt {

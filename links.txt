@@ -21,3 +21,12 @@ https://www.geeksforgeeks.org/html-css-tabindex-attribute-navigation-bars/
 
 JS height and width
 https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event
+
+php hijri dates
+https://github.com/GeniusTS/hijri-dates
+
+https://www.phpclasses.org/browse/file/66904.html
+
+https://hotexamples.com/examples/-/Hijri/-/php-hijri-class-examples.html
+
+https://stackoverflow.com/questions/3387285/best-way-to-store-hijri-dates-in-mysql
