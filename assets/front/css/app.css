@@ -878,6 +878,10 @@ button {
   border: 0;
 }
 
+img {
+  display: block;
+}
+
 /*= Burger =*/
 .burger {
   display: inline-block;
@@ -1759,7 +1763,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  padding: 30px 0 30px 20px;
+  padding: 30px 0;
 }
 
 .sidebar__widgets {
@@ -1768,6 +1772,8 @@ button {
 
 .sidebar__widget {
   margin-bottom: 35px;
+  -webkit-animation: fadeIn 2s ease-in-out;
+          animation: fadeIn 2s ease-in-out;
 }
 
 .sidebar__widget .widget__title {
@@ -1863,6 +1869,12 @@ button {
 .widget__item .item__cat {
   font-size: 13px;
   text-align: right;
+}
+
+@media (min-width: 769px) {
+  .sidebar {
+    padding-left: 20px;
+  }
 }
 
 /*= Footer =*/
